@@ -1,3 +1,0 @@
-Options -Indexes
-ErrorDocument 403 "<img src='http://zylon.tk/images/svg/404.svg' />"
-ErrorDocument 404 "<img src='http://zylon.tk/images/svg/404.svg' />"
