@@ -120,7 +120,7 @@ header ul.links {
   width:270px;
 }
 
-header li {
+header li.links {
   width:89px;
   float:left;
   border-right:1px solid #e0e0e0;
@@ -135,7 +135,7 @@ header li:last-child a {
   border-radius:0 5px 5px 0;
 }
 
-header ul a {
+header ul.links a {
   line-height:1;
   font-size:11px;
   color:#999;
