@@ -120,18 +120,18 @@ header ul.links {
   width:270px;
 }
 
-header li.links {
+header ul.links li {
   width:89px;
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px;
 }
 
-header li:first-child a {
+header ul.links li:first-child a {
   border-radius:5px 0 0 5px;
 }
 
-header li:last-child a {
+header ul.links li:last-child a {
   border-radius:0 5px 5px 0;
 }
 
@@ -145,11 +145,11 @@ header ul.links a {
   height:34px;
 }
 
-header ul a:hover {
+header ul.links a:hover {
   color:#999;
 }
 
-header ul a:active {
+header ul.links a:active {
   background-color:#f0f0f0;
 }
 
