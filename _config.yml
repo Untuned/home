@@ -1,8 +1,1 @@
-org_name: zylon.tk
-home_title: zylon.tk Home
-docs_title: zylon.tk Documentation
-motto: We're a server network where everyone has the ability to explore and create new things.
-description: We're a server network where everyone has the ability to explore and create new things.
-forum_link: https://forum.zylon.tk
-guild_link: https://ptb.discordapp.com/invite/bDzFtE
-github_link: https://github.com/zylontk
+markdown: kramdown
