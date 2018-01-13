@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>zylon.tk Punishments</title>
+    <link href="https://zylon.tk/img/favicon/global-white.png" rel="shortcut icon">
+    <link rel="stylesheet" href="https://zylon.tk/stylesheets/styles.css">
+    <link rel="stylesheet" href="https://zylon.tk/stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+   </head>
+    <div class="wrapper">
+      <header>
+        <img src="https://zylon.tk/img/global/svg/bolt-blue.svg" alt="zylon.tk" style="max-width: 50px; display: block; margin: 0 auto;">
+        <p style="text-align: center; padding-top: 20px;">Striking. Like lightning.</p>
+        <ul class="links">
+          <li><a href="https://forum.zylon.tk">Join the <strong>community</strong></a></li>
+          <li><a href="https://discord.gg/mANYCFb">Join the <strong>guild</strong></a></li>
+          <li><a href="https://medium.com/zylon-tk">Read the <strong>blog</strong></a></li>
+        </ul>
+      <section>
+         <h3>TotalFreedom Developers</h3>
+         <ul id="developers"></ul>
+         <h3>TotalFreedom Senior Admins</h3>
+         <ul id="senioradmins"></ul>
+         <h3">TotalFreedom Telnet Admins</h3>
+         <ul id="telnetadmins"></ul>
+         <h3>TotalFreedom Super Admins</h3>
+         <ul id="superadmins"></ul>
+      </section>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+      <script src="js/typed.js"></script>
+      <script src="js/moment.js"></script>
+      <script src="js/jquery.cookies.js"></script>
+      <script src="js/functions.js"></script>
+      <script src="js/main.js"></script>
+      <script src="https://use.fontawesome.com/cb2592f0cc.js"></script>
+      <script>
+         // All Json content is loaded respectively into #(item)
+         var jsonUrl = "https://totalfreedom.me/tfinfo/";
+         var jsonContent = [
+             "developers",
+             "superadmins",
+             "telnetadmins",
+             "senioradmins"
+         ];
+         
+         $(document).ready(function() {
+             loadJson(jsonUrl, jsonContent);
+         });
+      </script>
+  </body>
+</html>
