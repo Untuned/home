@@ -34,14 +34,17 @@ h3, h4, h5, h6 {
   font-weight: 500;
 }
 
-::-moz-selection { /* Code for Firefox */
-    color: #2B2D51;
-    background: #BFC9CA;
+p::-moz-selection {
+    background:rgba(191, 201, 202, 0.99);
+    color:#2B2D51;
 }
-
-::selection {
-    color: #2B2D51;
-    background: #BFC9CA;
+p::-webkit-selection {
+    background:rgba(191, 201, 202, 0.99);
+    color:#2B2D51;
+}
+p::selection {
+    background:rgba(191, 201, 202, 0.99);
+    color:#2B2D51;
 }
 
 a {
