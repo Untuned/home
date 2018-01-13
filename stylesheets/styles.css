@@ -38,10 +38,12 @@ p::-moz-selection {
     background:rgba(191, 201, 202, 0.99);
     color:#2B2D51;
 }
+
 p::-webkit-selection {
     background:rgba(191, 201, 202, 0.99);
     color:#2B2D51;
 }
+
 p::selection {
     background:rgba(191, 201, 202, 0.99);
     color:#2B2D51;
